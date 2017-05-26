@@ -28,13 +28,28 @@
 		    background-color: rgb(234, 112, 41);
 		}
 		
-		p {
-			left: 25px; right: 25px;
+		a:link {
+			text-decoration: none; 
+			color: black;
 		}	
+		
+		a:visited {
+			text-decoration: none;
+			color: black; 
+		}
+		
+		a:hover {
+			text-decoration: none; 
+		}
+		
+		a:active {
+			text-decoration: none;
+			color: black; 
+		}
 	</style>
 	</head>
     <body style="  color: black; background-color: white; font-family: calibri;">
-       <h1 style = "font-family: cursive; font-size: 300%;">YUCHENG ZHOU</h1>
+       <h1 style = "font-family: cursive; font-size: 300%;"><a href="index.html">YUCHENG ZHOU</a></h1>
   	  <p style = "font-size: 100%;">85 Leitch Ave, Toronto, ON, M3J0E2<br>
   		  416-829-0956<br>
   		  <a href="mailto:yucheng3@my.yorku.ca">yucheng3@my.yorku.ca</a>
@@ -48,7 +63,7 @@
   		  <li style = "float: left;"><a class="active" href="experience.html">Experience</a></li>
   		  <li style = "float: left;"><a href="project.html">Projects</a></li>
     	  </ul>
-	  <ul style = "list-style-type: none;
+	  <div><ul style = "list-style-type: none;
        	margin-top: 20px; margin-bottom: 20px;
        	padding: 0;
        	overflow: hidden;
@@ -58,7 +73,8 @@
    		  <li ><a href="#c4" style="text-align: left;">Work Experience</a></li>
    		  <li ><a href="#c3" style="text-align: left;">Volunteer Experience</a></li>
      	  </ul>
-		 <h2><a name="c1">EDUCATION</a></h2>
+	  </div>
+		 <div style="margin-left:230px; width:800px;"><h2><a name="c1">EDUCATION</a></h2>
 	     Lassonde School of Engineering, York University, Computer Engineering(B.Eng)<br>
 	 	 Expected graduate: April 2019<br>
 	 	 <br>
@@ -97,6 +113,7 @@
 	 	 <ul>
 	 		 <li>Communicate with customers to help them identify their needs and maximize customers’ satisfaction</li>
 	 	 </ul>
+	 </div>
 	     <center></center>
 	     
   	</body>
